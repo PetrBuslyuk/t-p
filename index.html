@@ -2,9 +2,44 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>T&P</title>
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+    <link rel="stylesheet" href="src/styles/main.css">
 </head>
 <body>
 
+<div id="navbar-section">
+    <select id="language-select" name="select2">
+        <option selected="selected">EN</option>
+        <option>FR</option>
+        <option>UA</option>
+        <option>RU</option>
+    </select>
+    <div class="ph-dot-nav nav">
+        <a href="#general-page" class="menu-item" section-container="#general-page" i18y="HOME">Home</a>
+        <a href="#portfolio" class="menu-item" section-container="#portfolio" i18y="PORTFOLIO">Gallery</a>
+        <a href="#contacts" class="menu-item" section-container="#contacts" i18y="CONTACTS">Contact</a>
+        <a href="#about" class="menu-item" section-container="#about" i18y="ABOUT">About</a>
+        <div class="effect"></div>
+    </div>
+
+</div>
+
+<div id="sections">
+    <div id="general-page" class="menu-section hide">
+        <h1 id="company-name">T&P</h1>
+    </div>
+    <div id="portfolio" class="menu-section hide">
+        PORTFOLIO
+    </div>
+    <div id="contacts" class="menu-section hide">
+        contacts
+    </div>
+    <div id="about" class="menu-section hide">
+        About
+    </div>
+</div>
+
+<script src="builded-app.js"></script>
 </body>
 </html>

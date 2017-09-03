@@ -1,0 +1,32 @@
+@import "css-reset.css";
+@import "nav-bar.css";
+
+#language-select{
+    float: right;
+    margin-top: 10px;
+    right: 60px;
+    position: absolute;
+    height: 30px;
+    background: rgba(0, 0, 0, 0);
+}
+
+#navbar-section{
+    position: relative;
+}
+
+#general-page{
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    margin: 0 auto;
+}
+
+#general-page #company-name{
+    font-size: 4em;
+    text-align: center;
+}
+
+.hide{
+    display: none;
+    visibility: hidden;
+}
